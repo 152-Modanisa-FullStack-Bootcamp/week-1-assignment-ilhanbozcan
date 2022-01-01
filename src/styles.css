@@ -1,4 +1,123 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+  margin: 0;
+}
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.login {
+  height: 400px;
+  width: 350px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.login__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  flex-grow: 1;
+  border-bottom: 1px solid #a4b0be;
+}
+
+.login__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.login__footer {
+  display: flex;
+  flex-grow: 2;
+}
+
+.login__input {
+  width: 250px;
+  height: 35px;
+  display: flex;
+  margin-top: 15px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #a4b0be;
+}
+
+.login__input:focus {
+  outline: none;
+}
+
+.login__forgot {
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  color: #747d8c;
+  font-size: 15px;
+  margin: 20px 0 10px 0px;
+  cursor: pointer;
+}
+
+.login__forgot:hover {
+  color: #5691c8;
+}
+
+.login__button {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: #457fca; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-weight: normal;
+  font-size: 15px;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__signup {
+  color: #5691c8;
+  margin-left: 5px;
+  cursor: pointer;
 }
