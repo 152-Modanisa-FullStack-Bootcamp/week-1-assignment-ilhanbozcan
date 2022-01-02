@@ -1,4 +1,31 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+.card {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  background: #7f8c8d;
+  flex-direction: column;
+}
+
+.card__image {
+  display: flex;
+  height: 90%;
+}
+
+.card__name {
+  margin: 5px 0 0 5px;
+  display: flex;
+  flex-grow: 1;
+  color: aliceblue;
 }
