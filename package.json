@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/denizgursoy/vanilla-js-template#readme",
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "sharp": "^0.29.1"
   },
   "dependencies": {
     "axios": "^0.24.0"

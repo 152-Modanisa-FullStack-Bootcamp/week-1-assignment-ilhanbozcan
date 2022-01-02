@@ -1,12 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>My First Parcel App</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="app">
+      <div id="post">
+        <div class="post__header">
+          <div class="post__header__info">
+            <img
+              class="post__logo"
+              srcset="../assets/google_logo.png"
+              type="image/png"
+            />
+            <div class="info__group">
+              <div class="post__title">Google</div>
+              <div class="post__follower">23,251,608 followers</div>
+              <div class="post__time">
+                23h <span>&#183;</span> Edited <span>&#183;</span>
+                <img class="time__icon" alt="" srcset="../assets/earth.png" />
+              </div>
+            </div>
+          </div>
+          <div class="header__more">...</div>
+        </div>
+        <div class="post__textarea">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+            deleniti minima nobis cum labore quo quibusdam doloremque, soluta
+            ipsam et velit ex natus corporis?<br />
+            <span class="textarea__link">#Electus</span>
+            Illo, nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit
+            <span class="textarea__more">...see more</span>
+          </p>
+        </div>
+        <div class="post__photo">
+          <img class="photo" srcset="../assets/post.jpg" type="image/jpg" />
+          <div class="photo__info">
+            <div class="photo__info__title">
+              The Vision Summit 2021: an experience for Women of Color
+            </div>
+            <div class="photo__info__description">
+              ilhanbozcan.com.tr <span>&#183;</span> 1 min read
+            </div>
+          </div>
+        </div>
+        <div class="post__footer">
+          <div class="footer__icons">
+            <img class="icon" alt="" srcset="../assets/like_b.png" />
+            <img class="icon" srcset="../assets/support.png" />
+            <img class="icon" srcset="../assets/celebrate.png" />
+            <div class="footer__count">744</div>
+          </div>
+          <div class="footer__cooments">17 comments</div>
+        </div>
+        <div class="post__action">
+          <div class="action__group">
+            <img
+              class="action__icon--active"
+              alt=""
+              srcset="../assets/like.png"
+            />
+            <div class="action__text--active">Like</div>
+          </div>
+          <div class="action__group">
+            <img class="action__icon" srcset="../assets/comment.png" />
+            <div class="action__text">Comment</div>
+          </div>
+          <div class="action__group">
+            <img class="action__icon" srcset="../assets/share.png" />
+            <div class="action__text">Share</div>
+          </div>
+          <div class="action__group">
+            <img class="action__icon" srcset="../assets/send.png" />
+            <div class="action__text">Send</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
